@@ -42,6 +42,16 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
+Create a database with a name of your choice and after that, create a table with this sql statement:
+
+CREATE TABLE users (
+    id int AUTO_INCREMENT,
+    email varchar(255),
+    password varchar(255),
+    diary text
+);
+
+
 Just run an apache or nginx server and call "localhost/nameofthefolder" on your browser.
 
 
